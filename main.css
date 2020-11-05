@@ -1,3 +1,4 @@
+*{margin: 0px; padding: 0px;}
 html, body
 {
 	font-size: 18px;
@@ -5,12 +6,19 @@ html, body
 	background-color: #eeeeee;
 	overflow-x: hidden;
 }
+p{margin: 24px; font-size: 18px;}
+h3{margin: 24px; font-size: 24px;}
+small{font-size: 14px;}
 #head
 {
 	font-weight: 600;
 	padding: 48px;
+	font-size: 24px;
 	text-align: center;
+	color: rgb(23, 67, 134);
+	background-color: #dddddd;
 }
+#head p{font-size: 16px;}
 #list
 {
 	display: block;
@@ -21,6 +29,7 @@ html, body
 #list a, #list a:visited
 {
 	display: inline-block;
+	vertical-align: top;
 	padding: 18px;
 	text-align: center;
 	width: 100px;
